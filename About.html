@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void  | BY Shiro service |code by DD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+
+h2 {
+        color: #333;
+        
+    }
+    form {
+        background: #fff;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #218838;
+    }
+    .button {
+            display: inline-flex;
+            align-items: center;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .button img {
+            margin-right: 10px;
+            width: 20px; 
+            height: 20px; 
+        }
+   
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    ul li {
+        margin: 0 10px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .fa {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .menu {
+        display: flex;
+    }
+    .menu.hidden {
+        display: none;
+    }
+    
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+      
+
+        .button img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+
+
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="EMG/WhatsApp Image 2024-07-18 at 14.03.40_716b3215.jpg" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Service.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="Customer Service.html">Customer Service</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>About</h1>
+            <p>In a void game, players navigate through an abstract, minimalist environment where traditional rules and objectives are replaced by an exploration of the unknown. The game's design emphasizes emptiness and vast, open spaces, often invoking a sense of isolation and introspection. Players are encouraged to discover hidden elements and interact with the environment in unconventional ways, creating a unique, immersive experience that challenges conventional game play paradigms. This genre often focuses on atmosphere, mood, and player interpretation, making each play through a deeply personal journey</p>
+        </div>
+
+    </section>
+       
+<!-------------------------------------- footer -------------------------------------->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Welcome to our void game,This game with passion were Shiro games.with our interaction and you guys support we can achieve anything.</p>
+    <a href="https://www.facebook.com/profile.php?id=100075166545400" class="button">Facebook
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+    <a href="mailto:VoidOfficial77@gmail.com" class="button email">
+        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Email"></a>
+        <a href="https://www.platform-x.com/" class="button platform-x">
+            <img src="//abs.twimg.com/favicons/twitter.3.ico" alt="Email"></a>
+            <a href="https://www.instagram.com" class="button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com" class="button" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/TikTok_Logo.svg" alt="TikTok"></a>
+    <p>Code  by DIPANJAN DHAR</p>
+</section>
+<!---------------------------------------------------------------------------->
+    <script src="scripts.js"></script>
+<!---------------------------------------------------------------------------->    
+  <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+      
+
+        .button img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+<script src="server.js"></script>
+</body>
+</html>

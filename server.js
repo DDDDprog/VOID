@@ -7,7 +7,7 @@ app.use(Start.json());
 
 // Sample GET endpoint
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Code by DDprog!');
 });
 
 // Sample POST endpoint to receive JSON data

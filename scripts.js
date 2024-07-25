@@ -27,3 +27,18 @@ document.getElementById('submit').addEventListener('click', function() {
     userInput = sanitizeInput(userInput);
     // Proceed with sanitized input
 });
+
+
+document.cookie = "sessionId=abc123; Secure; HttpOnly; SameSite=Strict";
+
+const cleanHTML = DOMPurify.sanitize(userInput);
+document.getElementById('output').innerHTML = cleanHTML;
+
+// Bad practice
+eval("alert('This can be dangerous!');");
+
+// Better alternative
+function safeFunction() {
+    alert('This is safer!');
+}
+safeFunction();

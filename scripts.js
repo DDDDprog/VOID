@@ -17,3 +17,13 @@ function showMenu() {document.getElementById('menu').classList.remove('hidden');
    %0D%0A$
    {encodeURIComponent(userEmail)}`;
    window.location.href = mailtoLink;}
+
+function sanitizeInput(input) {
+    return input.replace(/[^a-zA-Z0-9 ]/g, "");
+}
+
+document.getElementById('submit').addEventListener('click', function() {
+    let userInput = document.getElementById('user-input').value;
+    userInput = sanitizeInput(userInput);
+    // Proceed with sanitized input
+});
